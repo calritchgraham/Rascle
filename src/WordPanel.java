@@ -4,10 +4,14 @@ import java.awt.*;
 public class WordPanel extends JPanel{
     JTextField textEntry[];
     JPanel panels[];
+
     private final static int LETTERS = 5;
     private final static Font font = new Font("SansSerif", Font.BOLD, 20);
-    
 
+    public JTextField[] getTextEntry() {
+        return this.textEntry;
+    }
+    
     public WordPanel(){
       
         this.setSize(new Dimension(600,100));
