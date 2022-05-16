@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import javax.swing.border.*;
-
 
 public class RascleView extends JFrame{
 	
